@@ -1,3 +1,5 @@
+# This fork makes the background color darker to match my wallpaper a bit and is intended for personal use, feel free to do anything you want with it
+![](./oceanic-next-fork.png)
 # Oceanic-Next.vim
 
 Oceanic-Next.vim is a neovim theme inspired by [Oceanic Next for Sublime](https://github.com/voronianski/oceanic-next-color-scheme).
