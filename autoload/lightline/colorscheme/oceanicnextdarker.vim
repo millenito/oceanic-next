@@ -32,4 +32,4 @@ let s:p.tabline.tabsel = [[["#C0C5CE", 15], ["#1b2b34", 243]]]
 let s:p.tabline.middle = [[["#1b2b34", 243], ["#03031b", 237]]]
 let s:p.tabline.right = [[["#C0C5CE", 243], ["#1b2b34", 237]]]
 
-let g:lightline#colorscheme#oceanicnext#palette = lightline#colorscheme#flatten(s:p)
+let g:lightline#colorscheme#oceanicnextdarker#palette = lightline#colorscheme#flatten(s:p)
