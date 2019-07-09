@@ -26,7 +26,9 @@
   endif
 "}}}
 " {{{ Colors
-  let s:base00=['#1b2b34', '235']
+  " let s:base00=['#1b2b34', '235']
+  let s:base00_old=['#1b2b34', '235']
+  let s:base00=['#03031b ', '235']
   let s:base01=['#343d46', '237']
   let s:base02=['#4f5b66', '240']
   let s:base03=['#65737e', '243']
@@ -73,7 +75,7 @@ call <sid>hi('Directory',                  s:base0D, '',       '',          '')
 call <sid>hi('ErrorMsg',                   s:base08, s:base00, '',          '')
 call <sid>hi('Exception',                  s:base08, '',       '',          '')
 call <sid>hi('FoldColumn',                 s:base0D, s:base00, '',          '')
-call <sid>hi('Folded',                     s:base03, s:base01, s:italic,    '')
+call <sid>hi('Folded',                     s:base03, s:base00_old, s:italic,    '')
 call <sid>hi('IncSearch',                  s:base01, s:base09, 'NONE',      '')
 call <sid>hi('Italic',                     '',       '',       s:italic,    '')
 
@@ -103,9 +105,9 @@ call <sid>hi('StatusLineNC',               s:base03, s:base01, '',          '')
 call <sid>hi('VertSplit',                  s:base00, s:base02, '',          '')
 call <sid>hi('ColorColumn',                '',       s:base01, '',          '')
 call <sid>hi('CursorColumn',               '',       s:base01, '',          '')
-call <sid>hi('CursorLine',                 '',       s:base01, 'NONE',      '')
+call <sid>hi('CursorLine',                 '',       s:base00_old, 'NONE',      '')
 call <sid>hi('CursorLineNR',               s:base00, s:base00, '',          '')
-call <sid>hi('CursorLineNr',               s:base03, s:base01, '',          '')
+call <sid>hi('CursorLineNr',               s:base0B, s:base01, '',          '')
 call <sid>hi('PMenu',                      s:base04, s:base01, '',          '')
 call <sid>hi('PMenuSel',                   s:base10, s:base0D, '',          '')
 call <sid>hi('PmenuSbar',                  '',       s:base02, '',          '')
